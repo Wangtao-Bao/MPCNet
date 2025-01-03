@@ -49,7 +49,7 @@
 | NUDT-SIRST    | 93.33  |  99.15 | 1.68  | 96.55 |
 
 
-*This code is highly borrowed from [SCTransNet](https://github.com/xdFai/SCTransNet). Thanks to shuai Yuan.
+*This code is highly borrowed from [SCTransNet](https://github.com/xdFai/SCTransNet). Thanks to Shuai Yuan.
 
 *The overall repository style is highly borrowed from [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Thanks to Boyang Li.
 
