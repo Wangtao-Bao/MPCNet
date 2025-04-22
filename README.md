@@ -6,7 +6,7 @@
 ![outline](image/img1.jpg)
 
 ## Datasets
-**The noise dataset and dataset split files used in this project can be downloaded from [Google Drive](https://drive.google.com/file/d/1kkoi5UcaqlRiURACvlkzfQRV5IzSRJ_e/view?usp=sharing)**
+**The noise dataset and dataset split files used in this project can be downloaded from [Google Drive](https://drive.google.com/file/d/1kkoi5UcaqlRiURACvlkzfQRV5IzSRJ_e/view?usp=sharing).**
 
 **Our project has the following structure:**
   ```
