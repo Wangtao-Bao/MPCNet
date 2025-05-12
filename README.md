@@ -7,7 +7,7 @@
 
 ## Datasets
 **The NoisySIRST dataset can be downloaded from [[SeRankDet]](https://github.com/GrokCV/SeRankDet).**
-**The noise dataset (SNoisySIRST and SPNoisySIRST) and dataset split files used in this project can be downloaded from [Google Drive](https://drive.google.com/file/d/1kkoi5UcaqlRiURACvlkzfQRV5IzSRJ_e/view?usp=sharing).**
+**The noise dataset (SNoisySIRST and SPNoisySIRST) and dataset split files used in this project can be downloaded from [[Google Drive]](https://drive.google.com/file/d/1kkoi5UcaqlRiURACvlkzfQRV5IzSRJ_e/view?usp=sharing).**
 
 **Our project has the following structure:**
   ```
