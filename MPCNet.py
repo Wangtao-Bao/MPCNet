@@ -182,13 +182,8 @@ class MPM(nn.Module):
             nn.ReLU()
         )
 
-        self.Conv_9 = nn.Sequential(
-            nn.Conv2d(in_channel // 4, in_channel // 4, 9, 1, padding=4),
-            nn.BatchNorm2d(in_channel // 4),
-            nn.ReLU()
-        )
 
-        self.Conv = CBR(in_channel * 2, in_channel, 1)                              #可以删除
+        self.Conv = CBR(in_channel * 2, in_channel, 1)                              
         self.sa = SpatialAttention()
         self.ca = CoordAttiton(in_channel,in_channel)
 
