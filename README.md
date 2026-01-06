@@ -1,14 +1,11 @@
 # MPCNet: Multi-scale Perception and Cross-attention Feature Fusion Network for Infrared Small Target Detection
 
-**We have submitted the paper for review and will make the code available after publication.**
+On January 5, 2026, our paper was officially accepted by the ***IEEE Transactions on Geoscience and Remote Sensing***. We sincerely thank all the reviewers and editors for their valuable comments and patient guidance during the review process, which played a crucial role in improving the quality of the paper. We are deeply honored and express our heartfelt gratitude for their support and assistance.
 
 ## Network
 ![outline](image/img1.jpg)
 
 ## Datasets
-**The NoisySIRST dataset can be downloaded from [[SeRankDet]](https://github.com/GrokCV/SeRankDet).**
-**The noise datasets (SNoisySIRST and SPNoisySIRST) and dataset split files used in this project can be downloaded from [[Dataset]](https://drive.google.com/file/d/1kkoi5UcaqlRiURACvlkzfQRV5IzSRJ_e/view?usp=sharing), and the corresponding training weights can be downloaded from [[Weights]](https://drive.google.com/file/d/1OxERM_9SekLqtvCOpg9W5tFzQ-0tG1e8/view?usp=sharing).**
-
 **Our project has the following structure:**
   ```
   ├───dataset/
@@ -42,6 +39,10 @@
 #### Qualitative Results
 
 ![outline](image/img2.jpg)
+
+#### Precision–Recall Curve
+
+![outline](image/img3.jpg)
 
 #### Quantitative Results on NUAA-SIRST, IRSTD-1K and NUDT-SIRST
 
