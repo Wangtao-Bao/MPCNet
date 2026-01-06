@@ -184,7 +184,6 @@ class MPM(nn.Module):
 
 
         self.Conv = CBR(in_channel * 2, in_channel, 1)                              
-        self.sa = SpatialAttention()
         self.ca = CoordAttiton(in_channel,in_channel)
 
     def forward(self, x):
