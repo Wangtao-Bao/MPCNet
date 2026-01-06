@@ -38,11 +38,11 @@ On January 5, 2026, our paper was officially accepted by the ***IEEE Transaction
 ## Results
 #### Qualitative Results
 
-![outline](image/img2.jpg)
+![outline](image/img2.png)
 
 #### Precision–Recall Curve
 
-![outline](image/img3.jpg)
+![outline](image/img3.png)
 
 #### Quantitative Results on NUAA-SIRST, IRSTD-1K and NUDT-SIRST
 
