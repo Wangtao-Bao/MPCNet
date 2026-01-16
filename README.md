@@ -46,8 +46,11 @@ On January 5, 2026, our paper was officially accepted by the ***IEEE Transaction
 
 #### Supplementary noise experiment
 To comprehensively evaluate the stability and generalization ability of the proposed MPCNet under various noise interferences, we first used the NoisySIRST dataset constructed by [SeRankDet](https://github.com/GrokCV/SeRankDet), which simulates typical imaging noise interference in real-world applications by introducing Gaussian noise of different intensities (σ = 10, 20, 30). Furthermore, using the same construction scheme, we developed two new noise variants based on the original NUAA-SIRST dataset to further validate the model's robustness in non-Gaussian noise environments:
+
 SPNoisySIRST: This dataset adds salt-and-pepper noise with densities of 1%, 3%, and 5%, simulating pulse-type interference caused by sensor failure or transmission errors.
+
 SNoisySIRST: This dataset contains speckle noise with variances of 1%, 3%, and 5%. This noise is widespread in infrared or radar images and mainly reflects brightness fluctuations caused by multiplicative interference.
+
 The two datasets above can be downloaded from [here](https://drive.google.com/file/d/1kkoi5UcaqlRiURACvlkzfQRV5IzSRJ_e/view?usp=sharing).
 <table>
 <thead>
