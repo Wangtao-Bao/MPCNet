@@ -45,20 +45,39 @@ On January 5, 2026, our paper was officially accepted by the ***IEEE Transaction
 ![outline](image/img3.png)
 
 #### Supplementary noise experiment
-| Methods | NoisySIRST (Gaussian noise) |  |  | SNoisySIRST (Speckle noise) |  |  |  SPNoisySIRST (Salt-and-pepper noise) |  |  |
-|---|---|---|---|---|---|---|---|---|---|
-|  | σ=10 |  | σ=20 |  | σ=30 |  | σ=1 |  | σ=3 |  | σ=5 |
-|  | IoU | Fm | IoU | Fm | IoU | Fm | IoU | Fm | IoU | Fm | IoU | Fm |
-| ACM | 67.36 | 80.38 | 68.55 | 81.24 | 62.18 | 76.56 | 70.97 | 82.91 | 68.35 | 81.07 | 67.07 | 80.17 | 64.34 | 78.18 | 61.71 | 76.16 | 54.35 | 70.34 |
-| RDIAN | 70.91 | 82.86 | 69.27 | 81.72 | 65.99 | 79.37 | 73.57 | 84.66 | 71.14 | 82.99 | 70.81 | 82.79 | 69.25 | 81.71 | 66.21 | 79.59 | 64.64 | 78.40 |
-| DNANet | 77.01 | 86.87 | 70.56 | 82.64 | 68.59 | 81.26 | 75.53 | 85.95 | 72.66 | 84.09 | 72.20 | 83.78 | 72.32 | 83.84 | 71.25 | 83.12 | 70.90 | 82.85 |
-| UIUNet | 77.77 | 87.58 | 74.53 | 85.31 | 68.70 | 81.34 | 80.08 | 88.79 | 77.43 | 87.10 | 74.21 | 85.06 | 76.23 | 87.00 | 74.05 | 84.95 | 72.64 | 84.02 |
-| RPCANet | 65.44 | 79.11 | 50.58 | 67.18 | 44.46 | 61.56 | 62.59 | 76.99 | 60.41 | 75.32 | 59.97 | 74.98 | 54.12 | 70.23 | 44.62 | 61.70 | 38.22 | 55.30 |
-| MSHNet | 73.54 | 84.63 | 70.91 | 82.86 | 68.77 | 81.37 | 70.53 | 82.59 | 69.47 | 81.84 | 68.73 | 81.35 | 72.64 | 84.01 | 69.43 | 81.78 | 66.02 | 79.41 |
-| PBT | 71.81 | 83.59 | 67.01 | 80.25 | 62.47 | 76.90 | 75.68 | 86.16 | 71.52 | 83.40 | 69.60 | 82.07 | 64.56 | 78.47 | 61.68 | 76.30 | 59.38 | 74.51 |
-| SCTransNet | 73.61 | 84.68 | 70.81 | 82.78 | 68.51 | 81.18 | 77.06 | 86.93 | 74.80 | 85.45 | 72.91 | 84.22 | 74.22 | 85.08 | 73.74 | 84.75 | 73.10 | 84.33 |
-| IDU-Net | 72.89 | 84.20 | 71.36 | 83.22 | 67.83 | 80.76 | 77.69 | 87.31 | 77.67 | 87.29 | 69.18 | 81.68 | 74.02 | 84.92 | 73.10 | 84.35 | 71.60 | 83.34 |
-| MPCNet | 78.13 | 87.61 | 75.62 | 85.99 | 69.14 | 81.65 | 78.66 | 87.93 | 78.23 | 87.68 | 76.00 | 86.23 | 78.19 | 87.60 | 73.31 | 84.45 | 73.13 | 84.35 |
+<table>
+<thead>
+<tr>
+<th rowspan="3">Methods</th>
+<th colspan="6">NoisySIRST (Gaussian noise)</th>
+<th colspan="6">SNoisySIRST (Speckle noise)</th>
+<th colspan="6">SPNoisySIRST (Salt-and-pepper noise)</th>
+</tr>
+<tr>
+<th colspan="2">σ=10</th><th colspan="2">σ=20</th><th colspan="2">σ=30</th>
+<th colspan="2">σ=1</th><th colspan="2">σ=3</th><th colspan="2">σ=5</th>
+<th colspan="2">σ=1</th><th colspan="2">σ=3</th><th colspan="2">σ=5</th>
+</tr>
+<tr>
+<th>IoU</th><th>Fm</th><th>IoU</th><th>Fm</th><th>IoU</th><th>Fm</th>
+<th>IoU</th><th>Fm</th><th>IoU</th><th>Fm</th><th>IoU</th><th>Fm</th>
+<th>IoU</th><th>Fm</th><th>IoU</th><th>Fm</th><th>IoU</th><th>Fm</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>ACM</td><td>67.36</td><td>80.38</td><td>68.55</td><td>81.24</td><td>62.18</td><td>76.56</td><td>70.97</td><td>82.91</td><td>68.35</td><td>81.07</td><td>67.07</td><td>80.17</td><td>64.34</td><td>78.18</td><td>61.71</td><td>76.16</td><td>54.35</td><td>70.34</td></tr>
+<tr><td>RDIAN</td><td>70.91</td><td>82.86</td><td>69.27</td><td>81.72</td><td>65.99</td><td>79.37</td><td>73.57</td><td>84.66</td><td>71.14</td><td>82.99</td><td>70.81</td><td>82.79</td><td>69.25</td><td>81.71</td><td>66.21</td><td>79.59</td><td>64.64</td><td>78.40</td></tr>
+<tr><td>DNANet</td><td>77.01</td><td>86.87</td><td>70.56</td><td>82.64</td><td>68.59</td><td>81.26</td><td>75.53</td><td>85.95</td><td>72.66</td><td>84.09</td><td>72.20</td><td>83.78</td><td>72.32</td><td>83.84</td><td>71.25</td><td>83.12</td><td>70.90</td><td>82.85</td></tr>
+<tr><td>UIUNet</td><td>77.77</td><td>87.58</td><td>74.53</td><td>85.31</td><td>68.70</td><td>81.34</td><td>80.08</td><td>88.79</td><td>77.43</td><td>87.10</td><td>74.21</td><td>85.06</td><td>76.23</td><td>87.00</td><td>74.05</td><td>84.95</td><td>72.64</td><td>84.02</td></tr>
+<tr><td>RPCANet</td><td>65.44</td><td>79.11</td><td>50.58</td><td>67.18</td><td>44.46</td><td>61.56</td><td>62.59</td><td>76.99</td><td>60.41</td><td>75.32</td><td>59.97</td><td>74.98</td><td>54.12</td><td>70.23</td><td>44.62</td><td>61.70</td><td>38.22</td><td>55.30</td></tr>
+<tr><td>MSHNet</td><td>73.54</td><td>84.63</td><td>70.91</td><td>82.86</td><td>68.77</td><td>81.37</td><td>70.53</td><td>82.59</td><td>69.47</td><td>81.84</td><td>68.73</td><td>81.35</td><td>72.64</td><td>84.01</td><td>69.43</td><td>81.78</td><td>66.02</td><td>79.41</td></tr>
+<tr><td>PBT</td><td>71.81</td><td>83.59</td><td>67.01</td><td>80.25</td><td>62.47</td><td>76.90</td><td>75.68</td><td>86.16</td><td>71.52</td><td>83.40</td><td>69.60</td><td>82.07</td><td>64.56</td><td>78.47</td><td>61.68</td><td>76.30</td><td>59.38</td><td>74.51</td></tr>
+<tr><td>SCTransNet</td><td>73.61</td><td>84.68</td><td>70.81</td><td>82.78</td><td>68.51</td><td>81.18</td><td>77.06</td><td>86.93</td><td>74.80</td><td>85.45</td><td>72.91</td><td>84.22</td><td>74.22</td><td>85.08</td><td>73.74</td><td>84.75</td><td>73.10</td><td>84.33</td></tr>
+<tr><td>IDU-Net</td><td>72.89</td><td>84.20</td><td>71.36</td><td>83.22</td><td>67.83</td><td>80.76</td><td>77.69</td><td>87.31</td><td>77.67</td><td>87.29</td><td>69.18</td><td>81.68</td><td>74.02</td><td>84.92</td><td>73.10</td><td>84.35</td><td>71.60</td><td>83.34</td></tr>
+<tr><td>MPCNet</td><td>78.13</td><td>87.61</td><td>75.62</td><td>85.99</td><td>69.14</td><td>81.65</td><td>78.66</td><td>87.93</td><td>78.23</td><td>87.68</td><td>76.00</td><td>86.23</td><td>78.19</td><td>87.60</td><td>73.31</td><td>84.45</td><td>73.13</td><td>84.35</td></tr>
+</tbody>
+</table>
+
 
 
 #### Quantitative Results on NUAA-SIRST, IRSTD-1K and NUDT-SIRST
