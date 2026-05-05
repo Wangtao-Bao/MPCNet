@@ -96,7 +96,9 @@ The two datasets above can be downloaded from [[here]](https://drive.google.com/
 | NUDT-SIRST    | 93.33  |  99.15 | 1.68  | 96.55 |
 
 *The overall framework of this paper is inspired by [MRF<sup>3</sup>Net](https://ieeexplore.ieee.org/document/10562332). Thanks to the authors of this paper.
+
 *This code is highly borrowed from [SCTransNet](https://github.com/xdFai/SCTransNet). Thanks to Shuai Yuan.
+
 *The overall repository style is highly borrowed from [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Thanks to Boyang Li.
 
 ## Citation
