@@ -95,12 +95,24 @@ The two datasets above can be downloaded from [[here]](https://drive.google.com/
 | IRSTD-1K      | 67.24  |  92.26 | 11.41 | 80.40 |
 | NUDT-SIRST    | 93.33  |  99.15 | 1.68  | 96.55 |
 
-
+*The overall framework of this paper is inspired by [MRF<sup>3</sup>Net](https://ieeexplore.ieee.org/document/10562332). Thanks to the authors of this paper.
 *This code is highly borrowed from [SCTransNet](https://github.com/xdFai/SCTransNet). Thanks to Shuai Yuan.
-
 *The overall repository style is highly borrowed from [DNANet](https://github.com/YeRen123455/Infrared-Small-Target-Detection). Thanks to Boyang Li.
 
-
+## Citation
+If you found this project helpful, please give us a star. If MPCNet has inspired you, please consider citing it. Thank you!
+```
+@ARTICLE{11346810,
+  author={Zhang, Yingmei and Bao, Wangtao and Yang, Yong and Wan, Weiguo and Xiao, Qin and Zou, Xueting},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={MPCNet: Multiscale Perception and Cross-Attention Feature Fusion Network for Infrared Small Target Detection}, 
+  year={2026},
+  volume={64},
+  number={},
+  pages={1-15},
+  keywords={Feature extraction;Semantics;Object detection;Adaptation models;Decoding;Noise;Robustness;Representation learning;Image segmentation;Geoscience and remote sensing;Cross-attention feature fusion;infrared small target detection (IRSTD);multiscale perception},
+  doi={10.1109/TGRS.2026.3653023}}
+```
 
 
 
